@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Login" representedClassName="Login" syncable="YES">
+        <attribute name="email" attributeType="String" regularExpressionString="@"/>
+        <attribute name="password" attributeType="String" minValueString="4" maxValueString="8" regularExpressionString="^(?=.*[A-Z].*[A-Z])(?=.*[!@#$&amp;*])(?=.*[0-9].*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8}$ "/>
+    </entity>
+</model>
